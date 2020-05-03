@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuSearch"
+        android:hint="@string/search_hint"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/insert"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menuSort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/insert"
+        app:showAsAction="ifRoom|collapseActionView">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sortWord"
+                    android:title="@string/sortWord" />
+                <item
+                    android:id="@+id/sortDate"
+                    android:title="@string/sortDate" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuAdd"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/insert"
+        app:showAsAction="ifRoom|collapseActionView">
+        <menu>
+            <item
+                android:id="@+id/addNewNote"
+                android:title="@string/addNewNote" />
+            <item
+                android:id="@+id/addNewFolder"
+                android:title="@string/addNewFolder" />
+        </menu>
+    </item>
+</menu>

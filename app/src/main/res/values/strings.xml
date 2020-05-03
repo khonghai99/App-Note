@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ghi chú</string>
+    <string name="filter">Search</string>
+    <string name="insert">Thêm</string>
+    <string name="sortWord">Sắp xếp theo bảng chữ cái</string>
+    <string name="sortDate">Sắp xếp theo ngày lập</string>
+    <string name="addNewNote">Ghi chú mới</string>
+    <string name="addNewFolder">Danh mục mới</string>
+    <string name="search_hint">Search here</string>
+</resources>

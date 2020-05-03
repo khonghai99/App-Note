@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notelist">
+
+    <!--<EditText
+        android:id="@+id/editFilter"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#00000000"
+        android:gravity="center"
+        android:hint="@string/filter"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+-->
+    <ListView
+        android:id="@+id/listNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFF9C8"
+        android:divider="#D3D3D3"
+        android:dividerHeight="1sp"
+        android:footerDividersEnabled="true" />
+
+   <!-- <LinearLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnAddNote"
+            android:layout_width="60dp"
+            android:layout_height="75dp"
+            android:background="@drawable/create_note" />
+    </LinearLayout>-->
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E70C0C"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Không có gì cả :)"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#4CAF50"
+        android:text="OK"
+        android:textColor="#FFF000"
+        android:textStyle="bold" />
+</RelativeLayout>
